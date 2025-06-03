@@ -11,17 +11,24 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        print("Start App")
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        
+        print("Runing App")
     }
     
+    override func viewDidDisappear(_ animated: Bool) {
+        print("Stoping App")
+    }
 
 }
 
 extension ViewController{
-    
+ 
+    func set(){
+        print("Set App Info")
+    }
     
 }
+
