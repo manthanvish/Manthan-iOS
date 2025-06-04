@@ -30,5 +30,8 @@ extension ViewController{
         print("Set App Info")
     }
     
+    func save(){
+        print("Save App Info")
+    }
 }
 
